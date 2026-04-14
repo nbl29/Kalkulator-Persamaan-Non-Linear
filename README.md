@@ -9,6 +9,39 @@ Mendukung tiga metode numerik:
 
 ---
 
+## 📥 Cara Mendapatkan File (Git Clone)
+
+Cara termudah untuk mendapatkan file proyek ini adalah lewat **git clone** — tersedia untuk semua platform di bawah.
+
+### 🪟 Windows (Command Prompt)
+Install Git terlebih dahulu di [git-scm.com](https://git-scm.com/download/win), lalu:
+```cmd
+git clone https://github.com/nbl29/Kalkulator-Persamaan-Non-Linear.git
+cd Kalkulator-Persamaan-Non-Linear
+```
+
+### 🐧 Linux (Terminal)
+```bash
+# Install git jika belum ada
+sudo apt install git -y       # Ubuntu / Debian
+sudo pacman -S git            # Arch Linux
+sudo dnf install git          # Fedora
+
+git clone https://github.com/nbl29/Kalkulator-Persamaan-Non-Linear.git
+cd Kalkulator-Persamaan-Non-Linear
+```
+
+### 📱 Termux (Android)
+```bash
+pkg install git -y
+git clone https://github.com/nbl29/Kalkulator-Persamaan-Non-Linear.git
+cd Kalkulator-Persamaan-Non-Linear
+```
+
+Setelah berhasil di-clone, lanjut ke langkah instalasi sesuai platform kamu di bawah.
+
+---
+
 ## 🪟 Windows — Command Prompt
 
 ### 1. Install Python
@@ -20,11 +53,10 @@ Cek apakah Python sudah terinstall:
 python --version
 ```
 
-### 2. Pindah ke folder proyek
+### 2. Masuk ke folder proyek
 ```cmd
-cd C:\Users\NamaKamu\Downloads\output
+cd Kalkulator-Persamaan-Non-Linear
 ```
-> Sesuaikan path di atas dengan lokasi folder hasil ekstrak ZIP.
 
 ### 3. Install dependensi
 ```cmd
@@ -58,11 +90,10 @@ sudo pacman -S python python-pip
 sudo dnf install python3 python3-pip
 ```
 
-### 2. Pindah ke folder proyek
+### 2. Masuk ke folder proyek
 ```bash
-cd ~/Downloads/output
+cd Kalkulator-Persamaan-Non-Linear
 ```
-> Sesuaikan path dengan lokasi folder hasil ekstrak ZIP.
 
 ### 3. Install dependensi
 ```bash
@@ -88,14 +119,9 @@ pkg update && pkg upgrade -y
 pkg install python -y
 ```
 
-### 3. Pindah ke folder proyek
-Jika file ZIP sudah diunduh ke penyimpanan internal:
+### 3. Masuk ke folder proyek
 ```bash
-# Izinkan akses penyimpanan terlebih dahulu
-termux-setup-storage
-
-# Masuk ke folder Download
-cd ~/storage/downloads/output
+cd Kalkulator-Persamaan-Non-Linear
 ```
 
 ### 4. Install dependensi
